@@ -19,7 +19,7 @@ THEME = 'pelican-blue'
 SIDEBAR_DIGEST = 'Programmer and Web Developer'
 DISPLAY_PAGES_ON_MENU = True
 TWITTER_USERNAME = 'yanwarsolah'
-MENUITEMS = (('Home', SITEURL),)
+
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -27,6 +27,8 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+MENUITEMS = (('Blog', SITEURL),)
+DISQUS_SITENAME = "yanwarsolah"
 
 # Blogroll
 # LINKS = ((),)
