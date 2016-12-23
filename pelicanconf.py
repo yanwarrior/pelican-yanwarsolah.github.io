@@ -6,11 +6,13 @@ AUTHOR = 'Yanwar Solahudin'
 SITENAME = '@yanwarsolah'
 SITEURL = 'https://yanwarsolah.github.io'
 
+
 # PATH = 'content'
 # STATIC_PATHS = ['blog', 'downloads']
 # ARTICLE_PATHS = ['blog']
 
 PATH = 'content'
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'Asia/Jakarta'
 
